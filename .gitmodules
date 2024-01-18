@@ -1,0 +1,3 @@
+[submodule "hanzi-chai"]
+	path = hanzi-chai
+	url = https://github.com/hanzi-chai/hanzi-chai.github.io
