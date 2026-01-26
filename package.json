@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "npm run install-hanzi-chai && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "install-hanzi-chai": "cd hanzi-chai/packages/hanzi-chai && npm ci && cd ../../../"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.37.4",
