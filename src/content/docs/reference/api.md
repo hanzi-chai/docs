@@ -1,8 +1,6 @@
 ---
-sidebar_position: 4
+title: 汉字自动拆分系统 API
 ---
-
-# 汉字自动拆分系统 API
 
 ## DTO
 

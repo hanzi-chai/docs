@@ -1,8 +1,6 @@
 ---
-sidebar_position: 3
+title: config.yaml 详解
 ---
-
-# config.yaml 详解
 
 `config.yaml` 是汉字自动拆分系统所使用的配置文件，可以由网页 App 生成，也可以自行编写。
 
