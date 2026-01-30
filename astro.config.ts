@@ -13,6 +13,9 @@ export default defineConfig({
 				minHeadingLevel: 1,
 				maxHeadingLevel: 3,
 			},
+			customCss: [
+				'./src/index.css',
+			],
       plugins: [
         // Generate the documentation.
         starlightTypeDoc({
@@ -28,7 +31,7 @@ export default defineConfig({
 						{ label: '设计方案的元素', slug: 'tutorial/element' },
 						{ label: '配置拆分方式', slug: 'tutorial/analysis' },
 						{ label: '生成元素序列表和码表', slug: 'tutorial/encode' },
-						{ label: '自定义字形数据', slug: 'tutorial/data' },
+						{ label: '自定义数据', slug: 'tutorial/data' },
 						{ label: '优化方案', slug: 'tutorial/optimization' },
 						{ label: '查看统计数据', slug: 'tutorial/statistics' },
 						{ label: '和现有码表校对', slug: 'tutorial/debug' },
