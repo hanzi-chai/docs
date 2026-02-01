@@ -1,5 +1,6 @@
 ---
 title: 优化方案
+sidebar: { order: 5 }
 ---
 
 # 决策与决策空间
