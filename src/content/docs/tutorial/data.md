@@ -1,6 +1,6 @@
 ---
 title: 自定义数据
-sidebar: { order: 7 }
+sidebar: { order: 8 }
 ---
 
 # 词库和字集过滤
